@@ -625,8 +625,8 @@ let nts = {
         cnt: `<p class="tit">反馈</p>
             <p>我们非常注重用户的体验与反馈</p>
             <list class="new">
-              <a class="a" onclick="window.open('https://github.com/tjy-gitnub/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在github上提交issue(需要github账户，会得到更高重视)</a>
-              <a class="a" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SDw7SZURjUzOUo0VEVXU1pMWlFTSUVGWDNYWU1EWS4u','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在Microsoft Forms上发送反馈(不需要账户，也会重视)</a>
+              <a class="a" onclick="window.open('https://github.com/yubius/Windows12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在github上提交issue(需要Github账户，可以像社区一样反馈交流)</a>
+              <a class="a" onclick="window.open('https://forms.office.com/r/rL0GdqpT3b','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在Microsoft Forms上发送反馈(不需要GitHub账户，开发者可以通过留下的方式联系您)</a>
             </list>`,
         btn: [
             { type: 'main', text: '关闭', js: 'closenotice();' },
